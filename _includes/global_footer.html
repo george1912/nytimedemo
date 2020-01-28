@@ -1,0 +1,35 @@
+<!--footer START-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="main_table" width="600">
+  <tr>
+    <td bgcolor="#e5e6e7">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="90" class="em_hide">&nbsp;</td>
+          <td class="mobpad">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="46" align="left" valign="top" style="font-size:1px; line-height:1px; mso-line-height-alt:0; mso-margin-top-alt:1px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="top" align="center" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;text-align:center;color:#000001;line-height:23px;font-weight:normal;">Consider <a data-link-name="sub01"
+                    href="http://l.email.newyorktimes.com/rts/go2.aspx?h=388558&tp=i-H43-A3-9Oo-1FMzUs-1y-1krAU-1c-1FMijX-ajxHW&x=i-H43-A3-9Oo-1FMzUs-1y-1krAU-1c-1FMijX-ajxHW" style="color: #000001; text-decoration: underline;font-weight:bold;"
+                    target="_blank">subscribing</a> to The Times and support future email devs like
+                  {% for applicant in site.data.footer_dynamic_data %}
+                  {{ applicant.name }}
+                  <br>
+                  {{ applicant.prose }}
+                  {% endfor %}
+                </td>
+              </tr>
+              <tr>
+                <td height="46" align="left" valign="top" style="font-size:1px; line-height:1px; mso-line-height-alt:0; mso-margin-top-alt:1px;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          <td width="90" class="em_hide">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- footer END->
